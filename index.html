@@ -1,61 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Investimento Ótimo</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Avaliação AV3 – Parte 1 – Atividade 1</h1>
     <div class="container">
-        <h1>Seleção de Investimentos Ótimos</h1>
+      <h1>Seleção de Investimentos Ótimos</h1>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Investimento</th>
-                    <th>Custo (R$)</th>
-                    <th>Retorno (R$)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Ações de Empresa X</td>
-                    <td>R$ 30.000,00</td>
-                    <td>R$ 40.000,00</td>
-                </tr>
-                <tr>
-                    <td>Ações de Empresa Y</td>
-                    <td>R$ 50.000,00</td>
-                    <td>R$ 60.000,00</td>
-                </tr>
-                <tr>
-                    <td>Imóvel Z</td>
-                    <td>R$ 40.000,00</td>
-                    <td>R$ 45.000,00</td>
-                </tr>
-                <tr>
-                    <td>Títulos públicos P</td>
-                    <td>R$ 10.000,00</td>
-                    <td>R$ 15.000,00</td>
-                </tr>
-                <tr>
-                    <td>Fundo de investimento F</td>
-                    <td>R$ 20.000,00</td>
-                    <td>R$ 25.000,00</td>
-                </tr>
-            </tbody>
-        </table>
+      <table>
+        <thead>
+          <tr>
+            <th>Investimento</th>
+            <th>Custo (R$)</th>
+            <th>Retorno (R$)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ações de Empresa X</td>
+            <td>R$ 30.000,00</td>
+            <td>R$ 40.000,00</td>
+          </tr>
+          <tr>
+            <td>Ações de Empresa Y</td>
+            <td>R$ 50.000,00</td>
+            <td>R$ 60.000,00</td>
+          </tr>
+          <tr>
+            <td>Imóvel Z</td>
+            <td>R$ 40.000,00</td>
+            <td>R$ 45.000,00</td>
+          </tr>
+          <tr>
+            <td>Títulos públicos P</td>
+            <td>R$ 10.000,00</td>
+            <td>R$ 15.000,00</td>
+          </tr>
+          <tr>
+            <td>Fundo de investimento F</td>
+            <td>R$ 20.000,00</td>
+            <td>R$ 25.000,00</td>
+          </tr>
+        </tbody>
+      </table>
 
-        <button onclick="calcularInvestimento()">Calcular Melhor Investimento</button>
-
-        <div id="result" class="result hidden">
-            <p><strong>Melhor seleção de investimentos:</strong> <span id="melhor-selecao"></span></p>
-            <p><strong>Melhor retorno esperado:</strong> R$ <span id="melhor-retorno"></span></p>
-        </div>
+      <div class="botao-container">
+        <button onclick="calcularInvestimento()">
+          Calcular Melhor Investimento
+        </button>
+      </div>
+      <div id="result" class="result hidden">
+        <p>
+          <strong>Melhor seleção de investimentos:</strong>
+          <span id="melhor-selecao"></span>
+        </p>
+        <p>
+          <strong>Melhor retorno esperado:</strong> R$
+          <span id="melhor-retorno"></span>
+        </p>
+      </div>
     </div>
 
+    <footer>
+        <p>Conecte-se no <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-dos-santos-klausen-169b53161/" target="_blank">LinkedIn de João Vitor dos Santos Klausen</a></p>
+    </footer>
+
     <script src="index.js"></script>
-</body>
+  </body>
 </html>

@@ -51,6 +51,11 @@ table td {
     font-weight: bold;
 }
 
+.botao-container{
+    display: flex;
+    justify-content: center;
+}
+
 button {
     background-color: #007bff;
     color: white;
@@ -66,4 +71,22 @@ button:hover {
 
 .hidden {
     display: none;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ccc;
 }
